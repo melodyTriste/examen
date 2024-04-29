@@ -1,0 +1,166 @@
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .title{
+      color: balck;
+      font-weight: bold;
+      
+  }
+    .title2{
+      color: blue;
+      font-weight: bold;
+      
+  }
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  .display-3{
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .lead{
+    color: white;
+    font-weight: bold;
+  }
+  .fondoBarra{
+    background-color:#0288d1;
+}
+.brand-logo img{
+    height: 70px;
+    width: 70px;
+    padding-bottom: 10px;
+}
+#acomodado{
+    height: 100%;
+    width: 100%;
+  }
+.anima{
+    color: rgb(255, 255, 255);
+
+}
+.animaTWO{
+    color: rgb(0, 0, 0);
+    background-color: rgba(210, 255, 192, 0.356);
+}
+.anima:hover{
+    color: rgb(178, 153, 242);
+    font-weight: bold;
+    background-color: #ab47bc;
+    transition: 0.5s;
+}
+.animaTWO:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(63, 120, 36);
+    transition: 0.5s;
+}
+
+footer{
+  background-color: #42a5f5;
+}
+
+.tamaño{
+  height: 70px;
+  width: 70px;
+}
+
+
+.containerDOS{
+  display: flex;
+}
+.cardss{
+  border-radius: 20px;
+  margin-left: 10px;
+  height: 60px;
+  align-items: center;
+  background-color: #f9c160;
+  flex: 1;
+  transition:
+  .3s all ease;
+}
+.cardss:hover{
+  flex: 2;
+  background-color: #ab47bc;
+}
+
+.cardss:hover i{
+  color: rgb(255, 124, 110);
+  transition: 1s;
+}
+
+.head-redes{
+  background-color: #0288d1;
+
+}
+
+.correo{
+  text-decoration: none !important;
+  text-decoration-style: none !important;
+  cursor: pointer;
+}
+.direccion{
+  color: black !important;
+}
+
+/* telefono */
+@media (max-width: 800px) {
+    .ocultargg{
+        display: none !important;
+    }
+
+}
+/* tableta */
+@media (min-width: 800px) and (max-width: 1280px) {
+    .ocultargg{
+        display: none !important;
+    }
+}
+
+.back-to-top {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    display: block;
+    background: rgb(31, 83, 21);
+    color: white;
+    padding: 0.3rem 1rem;
+    transition: all 0.5s linear;
+    cursor: pointer;
+    opacity: 0.3;
+  }
+  
+    .back-to-top:hover {
+      opacity: 1;
+    }
